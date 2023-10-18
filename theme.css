@@ -1,5 +1,5 @@
 :root {
-    --dark0: #250000;
+    --dark0: #390000;
     --dark1: #290202;
     --dark2: #3d0404;
     --dark3: #5c1818;
@@ -13,6 +13,8 @@
     --frost1: #cc0d0d;
     --frost2: #81a1c1;
     --frost3: #FF9CFA;
+
+    --sideRed: #910b0bcc;
 
     --red: #d63f4e;
     --orange: #f3ad6b;
@@ -113,7 +115,29 @@ body {
     --font-monospace-theme: 'Hack Nerd Font', 'Source Code Pro', ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 }
 
-.theme-dark code[class*="language-"],
+.workspace-tab-header-container {
+    background-color: var(--sideRed) !important;
+}
+
+.body.titlebar {
+    background-color: #5fa57a;
+}
+
+.titlebar-button-container.mod-right {
+    background-color: var(--sideRed) !important;
+}
+
+.titlebar-button-container.mod-left {
+    background-color: var(--sideRed) !important;
+}
+
+.titlebar- {}
+
+.view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller {
+    padding: 1.5em;
+}
+
+.body. .theme-dark code[class*="language-"],
 .theme-dark pre[class*="language-"],
 .theme-light code[class*="language-"],
 .theme-light pre[class*="language-"] {
@@ -352,11 +376,11 @@ thead {
 }
 
 .workspace-ribbon.mod-left {
-    background-color: var(--dark2);
+    background-color: var(--sideRed);
 }
 
 .workspace-ribbon.mod-left.is-collapsed {
-    background-color: #910b0bcc;
+    background-color: var(--sideRed);
 }
 
 ..workspace-leaf-content {
