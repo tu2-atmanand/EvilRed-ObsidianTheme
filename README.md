@@ -2,7 +2,9 @@
 
 A red dark theme for Obsidian, compatible to Obsidian V1.4.13
 
-![](EvilRedThemeThumbnail.jpg)
+![SidebarOff](EvilRedThemeThumbnail.png)
+
+![SidebarOn](EvilRedThemeThumbnail2.png)
 
 ## Install
 
