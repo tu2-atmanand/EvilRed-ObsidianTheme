@@ -27,6 +27,9 @@
     --input-disabled-border-color: transparent;
     --input-hover-border-color: black;
     --input-hover-border-color: red;
+
+    --Editor-table-border-width: 2px;
+    --Editor-table-border-radius: 5px;
 }
 
 .theme-dark {
@@ -115,6 +118,7 @@ body {
     --font-monospace-theme: 'Hack Nerd Font', 'Source Code Pro', ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 }
 
+
 .workspace-tab-header-container {
     background-color: var(--sideRed) !important;
 }
@@ -131,13 +135,13 @@ body {
     background-color: var(--sideRed) !important;
 }
 
-.titlebar- {}
 
 .view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller {
     padding: 1.5em;
 }
 
-.body. .theme-dark code[class*="language-"],
+.body,
+.theme-dark code[class*="language-"],
 .theme-dark pre[class*="language-"],
 .theme-light code[class*="language-"],
 .theme-light pre[class*="language-"] {
@@ -404,14 +408,14 @@ thead {
 .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
 .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
 .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
-    width: 1px !important;
-    background-color: var(--background-secondary-alt);
+    width: 3px !important;
+    background-color: var(--frost1);
 }
 
 /* horizontal resize-handle */
 .workspace-split.mod-horizontal>*>.workspace-leaf-resize-handle {
-    height: 1px !important;
-    background-color: var(--background-secondary-alt);
+    height: 3px !important;
+    background-color: var(--light1);
 }
 
 /* Remove vertical split padding */
@@ -561,4 +565,40 @@ input.task-list-item-checkbox:checked {
 
 .setting-item-control input[type="text"]::placeholder {
     color: var(--dark3);
+}
+
+.metadata-container {
+    --input-height: var(--metadata-input-height);
+    border-radius: var(--Editor-table-border-radius);
+    background-color: var(--dark1);
+    border-color: var(--frost1);
+    border-style: solid;
+    border-width: var(--Editor-table-border-width);
+    padding: var(--metadata-padding);
+    color: var(--text-muted);
+    position: relative;
+    max-width: var(--metadata-max-width);
+    margin-block-end: var(--p-spacing);
+    transform: translateX(calc(var(--size-4-1) * -1 * var(--direction)));
+}
+
+div.dataview-error-box {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px dashed var(--frost1);
+}
+
+.markdown-source-view.mod-cm6 .hr {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-top: var(--hr-thickness) solid;
+    border-color: var(--frost1);
+}
+
+.inline-title {
+    align-self: center;
 }
