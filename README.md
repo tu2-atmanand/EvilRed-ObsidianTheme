@@ -1,6 +1,6 @@
 # Evil Red theme for Obsidian
 
-A red dark theme for Obsidian, compatible to Obsidian V1.4.13 and above.
+A Red Dark theme for Obsidian, compatible with Obsidian V1.4.13 and above.
 
 ![SidebarOff](SidePanelClose.png)
 
@@ -8,7 +8,11 @@ A red dark theme for Obsidian, compatible to Obsidian V1.4.13 and above.
 
 ## Install
 
-The theme is yet to be published on Obsidian Marketplace. For now you can manually install it from my release on github :
+The Theme is available from the Obsdian Theme Marketplace. Install and Enjoy !
+
+### Install Manually
+
+To manually install the theme from my release on github, follow below steps :
 
 1. Download the zip file from the [release](https://github.com/tu2-atmanand/EvilRed-ObsidianTheme/releases).
 
@@ -28,4 +32,4 @@ The theme is yet to be published on Obsidian Marketplace. For now you can manual
 
 This theme is created and maintained by [Atmanand Gauns](https://github.com/tu2-atmanand).
 
-[License]()
+[License](LICENSE)
