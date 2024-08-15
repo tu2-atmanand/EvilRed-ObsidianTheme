@@ -5,7 +5,7 @@
     --dark3: #5c1818;
 
     --light0: #ff8a8a;
-    --light1: #fce6e4;
+    --light1: #e4d1cf;
     --light2: #fdf8ec;
     --light3: #5fa57a;
 
@@ -18,6 +18,7 @@
 
     --red: #d63f4e;
     --orange: #f3ad6b;
+    --dark-orange: #83572f;
     --yellow: #ebcb8b;
     --green: #b0f078;
     --purple: #f899e7;
@@ -73,15 +74,15 @@
 }
 
 .theme-light {
-    --background-primary: var(--light3);
-    --background-primary-alt: var(--light3);
+    --background-primary: var(--light1);
+    --background-primary-alt: var(--light1);
     --background-secondary: var(--light2);
     --background-secondary-alt: var(--light1);
     --text-normal: var(--dark1);
     --text-faint: var(--dark3);
     --text-muted: var(--dark2);
     --text-title-h1: var(--red);
-    --text-title-h2: var(--orange);
+    --text-title-h2: var(--dark-orange);
     --text-title-h3: var(--yellow);
     --text-title-h4: var(--green);
     --text-title-h5: var(--purple);
@@ -106,10 +107,11 @@
     --text-selection: var(--light0);
     --text-tag: var(--frost2);
     --task-checkbox: var(--frost0);
-    --table-header: hsl(218, 27%, 48%);
+    --table-header: hsl(217, 74%, 70%);
     --table-row-even: hsl(220, 16%, 94%);
     --table-row-odd: hsl(220, 16%, 98%);
     --table-hover: var(--light1);
+    --icon-color: var(--light2);
 }
 
 body {
@@ -601,4 +603,8 @@ div.dataview-error-box {
 
 .inline-title {
     align-self: center;
+}
+
+.workspace-ribbon.mod-left:before {
+    background-color: var(--dark3);
 }
