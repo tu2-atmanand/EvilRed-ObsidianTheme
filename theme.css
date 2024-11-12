@@ -417,7 +417,7 @@ thead {
 /* horizontal resize-handle */
 .workspace-split.mod-horizontal>*>.workspace-leaf-resize-handle {
     height: 3px !important;
-    background-color: var(--light1);
+    background-color: var(--frost1);
 }
 
 /* Remove vertical split padding */
