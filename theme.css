@@ -68,8 +68,8 @@
     --text-tag: var(--frost0);
     --task-checkbox: var(--frost0);
     --table-header: hsl(220, 16%, 16%);
-    --table-row-even: hsl(220, 16%, 20%);
-    --table-row-odd: hsl(220, 16%, 24%);
+    --table-row-even: #2e21218a;
+    --table-row-odd: #000000;
     --table-hover: var(--dark3);
 }
 
@@ -607,4 +607,18 @@ div.dataview-error-box {
 
 .workspace-ribbon.mod-left:before {
     background-color: var(--dark3);
+}
+
+/* Calender Plugin  */
+
+.today {
+    color: var(--text-a) !important;
+    font-weight: 800 !important;
+}
+
+/* Header  */
+
+.workspace-split.mod-root .workspace-tab-header.is-active::before,
+.workspace-split.mod-root .workspace-tab-header.is-active::after {
+    box-shadow: none !important;
 }
